@@ -12,21 +12,27 @@ const Linkdin=require("../asset/svg/linkdin.svg")
 const Instagram=require("../asset/svg/insta.svg")
 
 
-function Navbar() {
+function Navbar(props:any) {
+  const setIsVisible=props.statefunction;
+  const visibility=props.onOff;
+
+  const toggleVisibility = () => {
+    setIsVisible(!visibility);
+  };
   return (
     <div className='bg-slate-800 text-white w-60 fixed top-30 h-full rounded-lg '>
-      <div className="flex justify-end">
+      <div className="flex justify-end"  onClick={toggleVisibility}>
       <Button className='m-2 hover:bg-red-500 '>Close</Button>
       </div>
-    <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Home} alt=""></Image> <p>Home </p> </div></a>
+    <a href='/' target='blank'><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Home} alt=""></Image> <p>Home </p> </div></a>
     <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Trending} alt=''></Image> <p>Trending</p></div></a>
     <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Snippet} alt=''></Image> <p>Snippet</p></div></a>
     <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Videos} alt=''></Image> <p>Videos</p></div></a>
        <h1   className='flex  pt-4 pl-3 pb-4 text-xl'><p>Social</p></h1>
-    <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Github} alt=''></Image><p>Github</p></div></a>
-    <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Twetter} alt=''></Image><p>Twetter</p></div></a>
-    <a><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Linkdin} alt=''></Image><p>Linkdin</p></div></a>
-    <a> <div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Instagram} alt=''></Image><p>Instagram</p></div></a>
+    <a href='https://github.com/priyanshu2k3' target='blank'><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Github} alt=''></Image><p>Github</p></div></a>
+    <a href='https://twitter.com/PriyanshuPGupta' target='blank'><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Twetter} alt=''></Image><p>Twetter</p></div></a>
+    <a href='https://www.linkedin.com/in/priyanshuprasadgupta/' target='blank'><div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Linkdin} alt=''></Image><p>Linkdin</p></div></a>
+    <a href='https://www.instagram.com/priyanshuprasadgupta/' target='blank'> <div  className='flex space-x-2 p-4 hover:pl-6 pr-2 hover:bg-gradient-to-r from-green-500 to-blue-500'><Image src={Instagram} alt=''></Image><p>Instagram</p></div></a>
 
     </div>
   )

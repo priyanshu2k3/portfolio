@@ -1,5 +1,6 @@
 [
-    {"techstack":"Frontend",
+    {
+    "techstack":"Frontend",
      "data": ["HTML", "CSS", "Tailwind", "Javascript", "Typescript", "React Js", "Next Js"]},
      
     {"techstack":"Backend",
@@ -9,5 +10,6 @@
     "data":["MySql", "MongoDB", "PostgreSQL", "Redis", "Elastic Search"]},
 
     {"techstack":"Devops" ,
-    "data":["Docker", "Kubernetes", "GIT", "Jenkins", "Ansible", "Terraform", "AWS"]}
+    "data":["Docker", "GIT", "AWS"]
+}
 ]

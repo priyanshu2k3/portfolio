@@ -14,7 +14,7 @@
         "Backend: Node.js, Express.js (for routing)",
         "API Integration: Google Custom Search API"
       ],
-      "projectLink": "https://www.google.com/"
+      "projectLink": "https://github.com/priyanshu2k3/google_clone"
     },
     {
       "projectName": "Netflix Clone",
@@ -31,7 +31,7 @@
         "Backend: Firebase (for authentication and database)",
         "API Integration: TMDB API (for movie/TV show data)"
       ],
-      "projectLink": "https://github.com/yourusername/netflix-clone"
+      "projectLink": "https://github.com/priyanshu2k3/netflix-clone"
     },
     {
       "projectName": "Pexels Clone",
@@ -48,7 +48,7 @@
         "Backend: Node.js, Express.js (for routing)",
         "Database: MongoDB (for user data)"
       ],
-      "projectLink": "https://github.com/yourusername/pexels-clone"
+      "projectLink": "https://github.com/priyanshu2k3/pexels-clone"
     },
     {
       "projectName": "Video Calling App",
@@ -65,7 +65,7 @@
         "Backend: Node.js, Socket.IO (for signaling)",
         "Database: MongoDB (for user data)"
       ],
-      "projectLink": "https://github.com/yourusername/video-calling-app"
+      "projectLink": "https://github.com/priyanshu2k3/video-chat-app"
     }
   ]
   
