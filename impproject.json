@@ -1,0 +1,71 @@
+[
+    {
+      "projectName": "Google Clone",
+      "description": "Google Clone is a web application that replicates the functionality and design of the Google search engine. Users can perform searches, view search results, and navigate through various search features.",
+      "image":"/images/google.png",
+      "features": [
+        "Search functionality",
+        "Search results display",
+        "Advanced search options",
+        "Google search features (e.g., images, news, videos)"
+      ],
+      "technologiesUsed": [
+        "Frontend: HTML, CSS, JavaScript",
+        "Backend: Node.js, Express.js (for routing)",
+        "API Integration: Google Custom Search API"
+      ],
+      "projectLink": "https://www.google.com/"
+    },
+    {
+      "projectName": "Netflix Clone",
+      "description": "Netflix Clone is a web application that mimics the design and functionality of the Netflix streaming platform. Users can browse and search for movies and TV shows, view details, and watch trailers.",
+      "image":"/images/netflix.png",
+      "features": [
+        "Movie and TV show browsing",
+        "Search functionality",
+        "View movie/TV show details",
+        "Watch trailers"
+      ],
+      "technologiesUsed": [
+        "Frontend: React.js, CSS (for styling)",
+        "Backend: Firebase (for authentication and database)",
+        "API Integration: TMDB API (for movie/TV show data)"
+      ],
+      "projectLink": "https://github.com/yourusername/netflix-clone"
+    },
+    {
+      "projectName": "Pexels Clone",
+      "description": "Pexels Clone is a web application that replicates the functionality of the Pexels stock photo platform. Users can search for high-quality, royalty-free images, and download or save them for later use.",
+      "image":"/images/pexels.png",
+      "features": [
+        "Image search functionality",
+        "View image details",
+        "Download or save images",
+        "User account management"
+      ],
+      "technologiesUsed": [
+        "Frontend: React.js, Tailwind CSS",
+        "Backend: Node.js, Express.js (for routing)",
+        "Database: MongoDB (for user data)"
+      ],
+      "projectLink": "https://github.com/yourusername/pexels-clone"
+    },
+    {
+      "projectName": "Video Calling App",
+      "description": "Video Calling App is a real-time communication application that allows users to make video calls with others over the internet. Users can initiate calls, join existing calls, and chat during calls.",
+      "image":"/images/videocall.png",
+      "features": [
+        "Initiate video calls",
+        "Join existing video calls",
+        "Real-time video and audio communication",
+        "Text chat during video calls"
+      ],
+      "technologiesUsed": [
+        "Frontend: React.js, WebRTC (for real-time communication)",
+        "Backend: Node.js, Socket.IO (for signaling)",
+        "Database: MongoDB (for user data)"
+      ],
+      "projectLink": "https://github.com/yourusername/video-calling-app"
+    }
+  ]
+  

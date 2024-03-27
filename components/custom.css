@@ -1,0 +1,16 @@
+@layer utilities {
+    .animate-neon {
+      @apply absolute top-0 left-0 w-full h-full bg-green-500 mix-blend-overlay;
+      animation: neon 3s linear infinite;
+    }
+  }
+  
+  @keyframes neon {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(360deg);
+    }
+  }
+  
