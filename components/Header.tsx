@@ -8,8 +8,7 @@ function Header(props:any) {
   const onNavbar=()=>{props.statefunction(true)}
   
   return (
-    <div className="flex justify-between p-4 bg-slate-800 sticky top-0 z-96" style="
-    z-index: 9999;">
+    <div className="flex justify-between p-4 bg-slate-800 sticky top-0 z-[9999]">
         <div className="">
         <span className="h-6 w-6 bg-green-500 rounded-full inline-block m-1"></span>
         <span className="h-6 w-6 bg-red-500 rounded-full inline-block m-1"></span>
