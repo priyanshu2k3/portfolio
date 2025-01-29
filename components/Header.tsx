@@ -16,7 +16,7 @@ function Header(props:any) {
         </div>
         <div className='w-2/4 flex '>
         <button type="button" className=" text-white bg-green-500 font-medium rounded-lg text-sm  py-2.5 text-center me-2 mb-2 w-full">
-        <a href='https://drive.google.com/file/d/1GVWL5WDYgfAIZ9bxnHq89wUWoVPqJ4fU/view?usp=sharing' 
+        <a href='https://docs.google.com/document/d/1wPzQLhHE6BxKys6VsDeGYfb8nbz_YbG5/edit?usp=sharing&ouid=105905050102375716470&rtpof=true&sd=true' 
         target='blank'><div className='animate-bounce text-3xl'>Download Resume  📁</div>
         </a>
         </button>
